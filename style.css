@@ -1184,13 +1184,14 @@ margin-top: -40%;
 
 }
 .com{
-    width: 370px;
+    width: 350px;
 }
 .mg{
 margin-bottom: 30px;
-margin-right: 30px;
+margin-right: 50px;
 }
 .email__footer{
-    width: 370px;
+    width: 350px;
+    margin-right: 30px;
 }
 }

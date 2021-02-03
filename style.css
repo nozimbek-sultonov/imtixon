@@ -400,3 +400,65 @@ margin-left: 10px;
 margin-top: 10px;
 color: #000000;
 }
+.name_input{
+    background-image: url("img/user.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    position: absolute;
+    top: 25%;
+    width: 400px;
+height: 60px;
+padding-left: 10px;
+background: #F6F6F6;
+border-radius: 10px;
+margin: 15px;
+left: 1%;
+}
+.name_inputt{
+    background-image: url("img/user.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    position: absolute;
+    top: 35%;
+    width: 400px;
+height: 60px;
+padding-left: 10px;
+background: #F6F6F6;
+border-radius: 10px;
+margin: 15px;
+left: 1%;
+}
+.name_inputtt{
+    background-image: url("img/user.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    position: absolute;
+    top: 45%;
+    width: 400px;
+height: 60px;
+padding-left: 10px;
+background: #F6F6F6;
+border-radius: 10px;
+margin: 15px;
+left: 1%;
+}
+.com{
+    background-image: url("img/user.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    position: absolute;
+    top: 55%;
+    width: 400px;
+height: 150px;
+padding-left: 10px;
+background: #F6F6F6;
+border-radius: 10px;
+margin: 15px;
+left: 1%; 
+resize: none;
+}
+.tell{
+    position: absolute;
+    right: 30%;
+    top: 50%;
+}

@@ -12,7 +12,6 @@
 }
 body{
   overflow-x: hidden;
-  border: 10px solid red;
 }
 .container  {
     width: 1140px;
@@ -1185,4 +1184,12 @@ margin-top: -40%;
 }
 .com{
     width: 370px;
+}
+.mg{
+margin-bottom: 30px;
+margin-right: 30px;
+}
+.email__footer{
+    width: 370px;
+}
 }

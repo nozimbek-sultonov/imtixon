@@ -10,6 +10,9 @@
     src: url(./text/text.woff);
 
 }
+body{
+  overflow-x: hidden;
+}
 .container  {
     width: 1140px;
     margin: 0 auto;
@@ -362,7 +365,7 @@ color: #6B6B6B;
 .footer{
     background-image: url("img/Vector\ 1.png");
     height: 1400px;
-    background-repeat: no-repeat;
+      background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -370,7 +373,6 @@ color: #6B6B6B;
     position: relative;
 }
 .footer_box{
-    position: absolute;
 width: 970px;
 height: 822px;
 left: 55px;
@@ -415,7 +417,7 @@ margin: 15px;
 left: 1%;
 }
 .name_inputt{
-    background-image: url("img/user.png");
+    background-image: url("img/Frame.png");
     background-repeat: no-repeat;
     background-position: right;
     position: absolute;
@@ -423,13 +425,12 @@ left: 1%;
     width: 400px;
 height: 60px;
 padding-left: 10px;
-background: #F6F6F6;
 border-radius: 10px;
 margin: 15px;
 left: 1%;
 }
 .name_inputtt{
-    background-image: url("img/user.png");
+    background-image: url("img/Group\ \(1\).png");
     background-repeat: no-repeat;
     background-position: right;
     position: absolute;
@@ -437,13 +438,12 @@ left: 1%;
     width: 400px;
 height: 60px;
 padding-left: 10px;
-background: #F6F6F6;
 border-radius: 10px;
 margin: 15px;
 left: 1%;
 }
 .com{
-    background-image: url("img/user.png");
+    background-image: url("img/Group\ \(2\).png");
     background-repeat: no-repeat;
     background-position: right;
     position: absolute;
@@ -451,14 +451,158 @@ left: 1%;
     width: 400px;
 height: 150px;
 padding-left: 10px;
-background: #F6F6F6;
 border-radius: 10px;
 margin: 15px;
 left: 1%; 
-resize: none;
 }
 .tell{
     position: absolute;
     right: 30%;
     top: 50%;
+}
+.phone_box{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 35%;
+}
+.name_input
+{   width: 400px;
+    height: 60px;
+    border: 2px solid #444444;
+    background:url("img/user.png") no-repeat right; 
+    color:#fff; 
+    padding-left:4px; 
+    padding: 10px 0px 10px 20px;
+    
+    font-size:20px;
+    }
+.text_foooter{
+    width: 227px;
+height: 52px;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+}
+.position_for_footer{
+    position: absolute;
+    left: 50%;
+    bottom: 26%;
+}
+.emaile__footer_box{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 22%;
+}
+.butoon_telegram{
+    border-radius: 10px;
+    position: absolute;
+    bottom: 10%;
+    left: 2%;
+    background: #5956E9;
+    width: 210px;
+    height: 60px;
+color: #FFFFFF;
+transition: .3s;
+}
+.butoon_telegram:hover{
+    box-shadow: 0 0 10px black;
+}
+.last_text{
+    width: 704px;
+height: 141px;
+font-weight: bold;
+font-size: 58px;
+line-height: 79px;
+text-align: center;
+z-index: 3;
+/* position: absolute; */
+bottom: 25%;
+left: 25%;
+color: white;
+margin-bottom: 100px;
+margin-top: 70px;
+}
+.text__editor>.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.email__footer{
+    width: 570px;
+height: 80px;
+background-color: #6E6BFF;
+border: none;
+}
+.email__button__footer{
+width: 160px;
+height: 80px;
+bottom: 0;
+background: #FFFFFF;
+border-radius: 5px;
+}
+.last_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width:1140px){
+    .container{
+        width: 1040px;
+        margin: 0 auto;
+    }
+    .nav-bar{
+        width: 1040px;
+        position: relative;
+    height: 900px;
+    background-color: #5855EE;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 2%;
+    }
+    .nav-bar>.container{
+        width: 970px;
+        margin: 0 auto;
+    }
+    .user_sect>.container{
+        width: 970px;
+        margin: 0 auto;
+    }
+    .min-box-1{
+        width: 350px;
+    }
+    .hr_wh{
+        display: none;
+    }
+    .hr_bl{
+        display: none;
+    }
+    .graphic_box{
+        width: 970px;
+    }
+    .graphic_box>.container{
+        width: 980px;
+    }
+    .text_graphic_box_text{
+        width: 400px;
+        margin-bottom: 100px;
+    }
+    .imgs>.container{
+        width: 950px;
+    }
+    .sponsers{
+        width: 890px;
+    }
+    .user_sect>.container{
+        width: 970px;
+        margin: 0 auto;
+        margin-top: 450px;
+        display: flex;
+        justify-content: center;
+    }
+    .user_box_text_min-box{
+        width: 400px;
+    }
 }

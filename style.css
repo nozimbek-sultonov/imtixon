@@ -5,9 +5,22 @@
     list-style: none;
     text-decoration: none;
 }
+@font-face{
+    font-family: "text";
+    src: url(./text/text.woff);
+
+}
 .container  {
     width: 1140px;
     margin: 0 auto;
+}
+.nav-bar{
+    width: 1360px;
+    height: 1268px;
+    background-color: #5855EE;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 3%;
 }
 .nav-bar>.container{
     width: 1140px;

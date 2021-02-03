@@ -989,7 +989,6 @@ margin-top: -30%;
         padding: 10px 15px 10px 15px;
     }
     .nav-bar{
-        width: 390px;
         position: relative;
     height: 600px;
     background-color: #5855EE;
@@ -1071,16 +1070,22 @@ margin-top: -30%;
         width: 200px;
         margin: 0 auto;
         margin-top: 10px;
+        margin-bottom: 50px;
+        margin-left: 111px;
     }
     .min-box-2{
         width: 200px;
         margin: 0 auto;
         margin-top: 10px;
+        margin-bottom: 50px;
+        margin-left: 111px;
     }
     .min-box-3{
         margin: 0 auto;
         margin-top: 10px;
         width: 200px;
+        margin-bottom: 50px;
+        margin-left: 111px;
     }
     .img_cont{
         width: 350px;
@@ -1152,7 +1157,7 @@ margin-top: -30%;
     display: none;
 }
 .img_box{
-    width: 85%;
+    width: 400px;
     justify-content: flex-start;
     align-items: flex-start;
     display: flex;
@@ -1183,15 +1188,21 @@ margin-top: -40%;
     width: 370px;
 
 }
+.nav__link__a{
+    margin-top: 30%;
+    margin-right: 30%;
+    position: absolute;
+}
+.
 .com{
     width: 350px;
 }
 .mg{
-margin-bottom: 30px;
-margin-right: 50px;
+margin-bottom: 55px;
+margin-right: 60px;
 }
 .email__footer{
     width: 350px;
-    margin-right: 30px;
+    margin-right: 50px;
 }
 }
